@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yeyo Moto Taller & Refaccionaria — Colima</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;0,900;1,900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo-link">
+    <img src="img/logo_yeyo.jpeg" alt="Yeyo Moto Taller" class="nav-logo-img">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#nosotros">¿Por qué nosotros?</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="https://wa.me/523121048071" target="_blank" class="nav-wa">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+      WhatsApp
+    </a>
+    <button class="nav-burger" id="navBurger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#nosotros">¿Por qué nosotros?</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+    <li>
+      <a href="https://wa.me/523121048071" target="_blank" class="mobile-nav-wa">
+        WhatsApp — 312 104 8071
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <p class="hero-eyebrow anim d1">Moto Taller & Refaccionaria · Colima</p>
+    <h1 class="hero-title anim d2">
+      TU MOTO<br>EN LAS<br><span class="red">MEJORES</span><br>MANOS
+    </h1>
+    <p class="hero-sub anim d3">
+      El lugar donde tu moto encuentra solución a <strong>buen precio</strong>. Motor, carrocería, sistema eléctrico y más. Trabajo garantizado.
+    </p>
+    <div class="hero-ctas anim d4">
+      <a href="https://wa.me/523121048071" target="_blank" class="btn-red">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+        Escríbenos ya
+      </a>
+      <a href="#servicios" class="btn-outline">Ver servicios</a>
+    </div>
+    <div class="hero-stats anim d4">
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Garantizado</span></div>
+      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Especialidades</span></div>
+      <div class="stat"><span class="stat-num">★ Top</span><span class="stat-label">Colima</span></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <svg class="gear-deco" width="500" height="500" viewBox="0 0 100 100" fill="white">
+      <path d="M43.3,5.4l-2.1,7.9C38,14.2,35,15.7,32.3,17.7l-7.7-2.9L18,21.4l4.5,6.8c-1.3,2.9-2,6-2.3,9.2l-7.4,3.5v8.7l7.4,3.5c0.3,3.2,1,6.3,2.3,9.2L18,69.1l6.6,6.6l7.7-2.9c2.7,2,5.7,3.5,8.9,4.4l2.1,7.9h9.3l2.1-7.9c3.2-0.9,6.2-2.4,8.9-4.4l7.7,2.9l6.6-6.6l-4.5-6.8c1.3-2.9,2-6,2.3-9.2l7.4-3.5v-8.7l-7.4-3.5c-0.3-3.2-1-6.3-2.3-9.2l4.5-6.8l-6.6-6.6l-7.7,2.9c-2.7-2-5.7-3.5-8.9-4.4l-2.1-7.9H43.3z M48,65c-9.4,0-17-7.6-17-17s7.6-17,17-17s17,7.6,17,17S57.4,65,48,65z"/>
+    </svg>
+    <img src="img/publicidad_yeyo.jpeg" alt="Yeyo Moto Taller — Publicidad" class="hero-promo-img">
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="marquee-item">Reparación de Motor <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Carrocería General <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Sistema Eléctrico <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Transmisión &amp; Clutch <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Suspensión &amp; Frenos <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Trabajo Garantizado <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Precios Justos <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Reparación de Motor <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Carrocería General <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Sistema Eléctrico <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Transmisión &amp; Clutch <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Suspensión &amp; Frenos <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Trabajo Garantizado <span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">Precios Justos <span class="marquee-sep">✦</span></span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="servicios" class="services">
+  <div class="section-head">
+    <p class="section-tag">Lo que hacemos</p>
+    <h2 class="section-title">Nuestros<br>Servicios</h2>
+  </div>
+  <div class="services-list">
+
+    <div class="service-row">
+      <div class="service-num">01</div>
+      <div class="service-content">
+        <div>
+          <div class="service-name">Reparación de Motor</div>
+          <div class="service-sub">En general</div>
+        </div>
+        <div class="service-items">
+          <span class="service-item">Pistón</span>
+          <span class="service-item">Transmisión</span>
+          <span class="service-item">Válvulas</span>
+          <span class="service-item">Clutch</span>
+          <span class="service-item">Levas</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-row">
+      <div class="service-num">02</div>
+      <div class="service-content">
+        <div>
+          <div class="service-name">Carrocería</div>
+          <div class="service-sub">En general</div>
+        </div>
+        <div class="service-items">
+          <span class="service-item">Suspensión</span>
+          <span class="service-item">Frenos</span>
+          <span class="service-item">Llanta / Cámara</span>
+          <span class="service-item">Rayos</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-row">
+      <div class="service-num">03</div>
+      <div class="service-content">
+        <div>
+          <div class="service-name">Sistema Eléctrico</div>
+          <div class="service-sub">En general</div>
+        </div>
+        <div class="service-items">
+          <span class="service-item">Estátor</span>
+          <span class="service-item">Luces</span>
+          <span class="service-item">Sistema de encendido</span>
+          <span class="service-item">Arneses</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="nosotros" class="why">
+  <div class="section-head">
+    <p class="section-tag">¿Por qué elegirnos?</p>
+    <h2 class="section-title">Tu moto merece<br>lo mejor</h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="why-icon">
+        <svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>
+      </div>
+      <div class="why-name">Trabajo Garantizado</div>
+      <p class="why-desc">Cada servicio que realizamos lleva nuestra garantía. Si no queda bien, lo resolvemos sin costo extra.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2v10l4 2"/><circle cx="12" cy="12" r="10"/></svg>
+      </div>
+      <div class="why-name">Servicio Rápido</div>
+      <p class="why-desc">Sabemos que tu moto es tu herramienta de trabajo. La atendemos con urgencia y eficiencia.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">
+        <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      </div>
+      <div class="why-name">Precios Justos</div>
+      <p class="why-desc">Sin sorpresas. Te damos presupuesto antes de empezar para que decidas con toda la información.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+      </div>
+      <div class="why-name">Expertos en Motos</div>
+      <p class="why-desc">Años de experiencia con todo tipo de motos. Conocemos cada modelo y sabemos cómo diagnosticar rápido.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band">
+  <div class="cta-band-text">¿Tu moto necesita atención? <span>No esperes más.</span></div>
+  <a href="https://wa.me/523121048071" target="_blank" class="btn-white">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+    Contactar por WhatsApp
+  </a>
+</div>
+
+<!-- CONTACT -->
+<section id="contacto" class="contact">
+  <div class="contact-left">
+    <h2>Encuéntra<span>nos</span></h2>
+    <div class="contact-items">
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.13 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.04 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <div class="contact-item-body">
+          <small>Teléfono / WhatsApp</small>
+          <strong><a href="tel:3121048071">312 104 8071</a></strong>
+        </div>
+      </div>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.13 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.04 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <div class="contact-item-body">
+          <small>Teléfono alternativo</small>
+          <strong><a href="tel:3346325261">334 632 5261</a></strong>
+        </div>
+      </div>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M21 10c0 6-9 13-9 13S3 16 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <div class="contact-item-body">
+          <small>Dirección</small>
+          <strong>Av. el Campesino Sur 45-B, El Moralete, Colima, Col.</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-right">
+    <a href="https://wa.me/523121048071" target="_blank" class="wa-big">
+      <div class="wa-big-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+      </div>
+      <div class="wa-big-text">
+        <p>Escríbenos directo por</p>
+        <strong>WhatsApp</strong>
+        <p style="font-size:14px;color:rgba(245,245,245,.4);margin-top:4px;">312 104 8071</p>
+      </div>
+    </a>
+
+    <div class="schedule">
+      <h3>Horario de atención</h3>
+      <div class="schedule-row"><span>Lunes – Viernes</span><span>9:00 AM – 7:00 PM</span></div>
+      <div class="schedule-row"><span>Sábado</span><span>9:00 AM – 3:00 PM</span></div>
+      <div class="schedule-row"><span>Domingo</span><span style="color:#555;">Cerrado</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">YEYO <span>MOTO</span> TALLER &amp; REFACCIONARIA</div>
+  <p>© 2025 Yeyo Moto Taller · El Moralete, Colima, Col.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
