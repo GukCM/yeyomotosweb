@@ -279,29 +279,34 @@ nav{
   flex-shrink:0;
 }
 .service-content{
-  padding:2rem 2.5rem;
-  display:grid;grid-template-columns:1fr 1fr;
-  gap:1rem;
-  align-items:center;
+  padding:1.75rem 2.5rem;
+  display:flex;flex-direction:column;
+  gap:1.25rem;
+}
+.service-header{
+  display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap;
 }
 .service-name{
   font-family:var(--font-display);
   font-size:30px;font-weight:900;font-style:italic;text-transform:uppercase;
   letter-spacing:.03em;color:var(--red-bright);
-  margin-bottom:.25rem;
+  line-height:1;
 }
 .service-sub{
   font-family:var(--font-display);
-  font-size:20px;font-weight:700;text-transform:uppercase;
-  letter-spacing:.05em;color:var(--white);
+  font-size:14px;font-weight:700;text-transform:uppercase;
+  letter-spacing:.12em;color:rgba(245,245,245,.35);
 }
 .service-items{
-  display:flex;flex-wrap:wrap;gap:.4rem .75rem;
+  list-style:none;
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(165px,1fr));
+  gap:.45rem .75rem;
 }
 .service-item{
-  font-size:14px;font-weight:300;
+  font-size:13px;font-weight:300;
   color:rgba(245,245,245,.6);
-  display:flex;align-items:center;gap:.35rem;
+  display:flex;align-items:center;gap:.4rem;
 }
 .service-item::before{
   content:'';width:4px;height:4px;
@@ -494,7 +499,8 @@ footer p{font-size:12px;font-weight:300;color:rgba(245,245,245,.2);}
   .gear-deco{width:280px;height:280px;}
 
   .services{padding:4rem 1.5rem;}
-  .service-content{grid-template-columns:1fr;}
+  .service-content{padding:1.25rem 1.25rem;}
+  .service-items{grid-template-columns:repeat(auto-fill,minmax(140px,1fr));}
   .service-num{font-size:22px;}
 
   .why{padding:4rem 1.5rem;}
@@ -519,11 +525,11 @@ footer p{font-size:12px;font-weight:300;color:rgba(245,245,245,.2);}
   .stat-num{font-size:28px;}
   .hero-right{height:220px;}
 
-  .service-row{grid-template-columns:56px 1fr;}
-  .service-num{font-size:18px;}
-  .service-content{padding:1.25rem 1rem;}
-  .service-name{font-size:22px;}
-  .service-sub{font-size:15px;}
+  .service-row{grid-template-columns:48px 1fr;}
+  .service-num{font-size:16px;}
+  .service-content{padding:1rem .85rem;}
+  .service-name{font-size:20px;}
+  .service-items{grid-template-columns:repeat(auto-fill,minmax(120px,1fr));}
 
   .why-grid{grid-template-columns:1fr;}
   .why{padding:3rem 1.25rem;}
